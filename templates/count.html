@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>wordcount</title>
+</head>
+<body>
+    <h1>count result</h1>
+    <h2>your text :{{text}}</h2>
+    <p>The length of the  is {{result}}</p>
+    <br>
+    {% for word,count in dict %}
+    {{word}} frequency {{count}}
+    <br>
+    {% endfor %}
+
+
+</body>
+</html>
