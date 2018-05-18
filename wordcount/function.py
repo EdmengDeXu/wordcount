@@ -20,3 +20,7 @@ def count(request):
     return render(request,'count.html',{'result':result,
                                         'text':gettext,
                                         'dict':word_dict})
+
+
+def about(request):
+    return render(request,'about.html')
